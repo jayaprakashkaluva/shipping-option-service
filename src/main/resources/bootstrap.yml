@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-options-service
+
+  zipkin:
+    baseUrl: http://192.168.1.12:9411
+  slueth:
+    sampler:
+      percentage: 100
